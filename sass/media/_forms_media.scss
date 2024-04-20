@@ -1,0 +1,10 @@
+@media (max-width: 991px) {
+.feed-form {
+    margin:0 auto;
+    input {
+        &:nth-child(1) {
+            margin-top: 20px;
+        }
+    }
+}
+}

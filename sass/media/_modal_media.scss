@@ -1,0 +1,55 @@
+@media (max-width: 1200px) {
+    .modal {
+        width: 370px;
+        min-height: 370px;
+        .feed-form{
+            width: 85%;
+            max-height: 350px;
+        }
+        .button_submit{
+            font-size: 14px;
+        }
+        label.error {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .modal {
+        padding: 18px 15px 18px 15px;
+        width: 310px;
+        min-height: 380px;
+        .feed-form{
+            width: 85%;
+            max-height: 300px;
+        }
+        .button_submit{
+            font-size: 14px;
+        }
+        label.error {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .modal {
+        width: 55%;
+        min-height: 150px;
+        .feed-form{
+            width: 84%;
+            max-height: 300px;
+        }
+        .button_submit{
+            width: 100%;
+            height: 38px;
+            font-size: 12px;
+        }
+        label.error {
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+    }
+}

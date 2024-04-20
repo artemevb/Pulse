@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 37px;
+        }
+        &__subheader {
+            font-size: 23px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        &__header {
+            text-align: center;
+            font-size: 30px;
+        }
+        &__subheader {
+            text-align: center;
+            font-size: 20px;
+        }
+        &__icons {
+            width: 300px;
+        }
+        &__icon {
+            width: 88px;
+            font-size: 14px;
+        }
+    }
+}

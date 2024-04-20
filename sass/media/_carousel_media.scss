@@ -1,0 +1,83 @@
+@media (max-width: 991px) {
+    .carousel {
+        &__inner {
+            width: 600px;
+            img {
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+    }
+    .slick-dots {
+        margin-top: 15px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        #slick-slide-control00 {
+            width: 200px;
+            height: 55px;
+            border-radius: 15px;
+            background-color: $main-color;
+            color: white;
+            border: none;
+        }
+        #slick-slide-control01 {
+            width: 200px;
+            height: 55px;
+            border-radius: 15px;
+            background-color: $main-color;
+            color: white;
+            border: none;
+        }
+        #slick-slide-control02 {
+            width: 200px;
+            height: 55px;
+            border-radius: 15px;
+            border: none;
+            background-color: $main-color;
+            color: white;
+        }
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .carousel {
+        &__inner {
+            width: 400px;
+            img {
+                width: 85%;
+            }
+        }
+    }
+    .slick-dots {
+        height: 150px;
+        #slick-slide-control00 {
+            width: 150px;
+            height: 40px;
+        }
+        #slick-slide-control01 {
+            width: 150px;
+            height: 40px;
+        }
+        #slick-slide-control02 {
+            width: 150px;
+            height: 40px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .carousel {
+        &__inner {
+            width: 300px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+

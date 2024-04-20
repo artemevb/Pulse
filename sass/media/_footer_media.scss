@@ -1,0 +1,42 @@
+@media (max-width: 767px) {
+    .footer {
+        &__info {
+            width: 58%;
+            height: 36%;
+            padding: 20px 18px 10px 18px;
+        }
+        &__social-item {
+            width: 45px;
+            height: 45px;
+            img {
+                height: 22px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+        height: 630px;
+        &__info {
+            width: 60%;
+            height: 28%;
+            padding: 15px 18px 10px 18px;
+        }
+        &__addr {
+            margin-bottom: 26px;
+            font-size: 18px;
+        }
+        &__phone {
+            margin-bottom: 20px;
+            font-size: 19px;
+        }
+        &__social-item {
+            width: 35px;
+            height: 35px;
+            img {
+                height: 18px;
+            }
+        }
+    }
+}

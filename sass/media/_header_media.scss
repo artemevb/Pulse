@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+    .header {
+        max-width: 960px;
+        padding: 0px 10px 0px 10px;
+        &__logo {
+            width: 200px;
+        }
+    }
+}
+ 
+@media (max-width: 767px) {
+    .header {
+        max-width: 760px;
+        &__logo {
+            width: 180px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 170px;
+        }
+        span {
+            font-size: 16px;
+        }
+        &__phone {
+            padding-bottom: 10px;
+            font-size: 14px;
+        }
+    }
+}
